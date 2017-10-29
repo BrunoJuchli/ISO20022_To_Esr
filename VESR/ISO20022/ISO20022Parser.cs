@@ -46,7 +46,7 @@ namespace VESR.ISO20022
 
         private static DateTime ParseDate(string value)
         {
-            return DateTime.ParseExact(value, "yyyy-mm-dd", CultureInfo.CurrentUICulture);
+            return DateTime.ParseExact(value, "yyyy-MM-dd", CultureInfo.CurrentUICulture);
         }
     }
 }
